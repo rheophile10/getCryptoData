@@ -56,7 +56,7 @@ def get_ftx_data():
         'FTX-TS': str(ts)
     }
     data = requests.get(url, headers=headers).json()
-    data = pd.DataFrame(data)
+    data = pd.DataFrame(data['result'])
     data['timestamp'] = ts
     return data
 

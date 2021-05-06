@@ -28,7 +28,7 @@ READ_ONLY_FTX_API_SECRET="blahblah"
 ## Usage
 
 ```bash
-python get_crypto_data
+python get_crypto_data.py
 ```
 
 ## Contributing
